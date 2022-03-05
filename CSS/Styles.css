@@ -1,0 +1,69 @@
+body {
+    background: #fff;
+    font-family: 'Times New Roman', Times, serif !important;
+    margin: 0;
+    padding: 0;
+}
+
+header .menu {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+header ul li{
+    list-style: none !important;
+    display: flex;
+}
+header ul {
+    display: flex !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+    font-size: x-large;
+}
+
+header {
+    background: linear-gradient(rgba(11, 53, 95, .7), rgba(101, 150, 199, .3)), url(../Images/LogoPasteleria.png);
+    height: 100vh;
+    background-size: contain;
+    justify-content: center;
+}
+
+header img {
+    height: 250px;
+    width: 280px;
+}
+
+.bienvenida {
+    text-align: center;
+    font-size: 125%;
+    margin-top: 40%;
+}
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 300%;
+}
+
+.sabor {
+    background-image: url(../Images/Fondo-Sabores.png);
+}
+
+.decoracion {
+    background-image: url(../Images/Fondo-Decoracion.png);
+}
+
+.sucursal {
+    background-image: url(../Images/Fondo-Sucursales.png);
+}
+
+thead th{
+    font-size: 160%;
+}
+
+tbody th {
+    font-size: 140%
+}

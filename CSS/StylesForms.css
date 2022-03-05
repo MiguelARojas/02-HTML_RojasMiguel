@@ -1,0 +1,92 @@
+body {
+    font-family: 'Times New Roman', Times, serif !important;
+    margin: 0;
+    padding: 0;
+}
+
+header .menu {
+    display: flex;
+    margin: auto;
+}
+
+header ul li{
+    list-style: none !important;
+    display: flex;
+}
+header ul {
+    display: flex !important;
+}
+
+.Image {
+    display: flex;
+    justify-content: right;
+    margin-left: 90vh;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+    font-size: x-large;
+}
+
+header {
+    background: linear-gradient(rgba(11, 53, 95, .7), rgba(101, 150, 199, .3));
+    height: 10vh;
+    background-size: contain;
+    justify-content: center;
+}
+
+header img {
+    height: 250px;
+    width: 280px;
+}
+
+.bienvenida {
+    text-align: center;
+    font-size: 125%;
+    margin-top: 40%;
+}
+
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    font-size: 300%;
+}
+
+thead th{
+    font-size: 160%;
+}
+
+tbody th {
+    font-size: 140%
+}
+
+.prueba  {
+    display: flex;
+    justify-content: center;
+}
+
+.fondo {
+    margin-top: 5%;
+    margin-left: 70vh;
+    background-image: url(../Images/Fondo-Sucursales.png);
+    height: 430px;
+    width: 400px;
+}
+
+.fondo2 {
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 50vh;
+    background-image: url(../Images/Fondo-Sabores.png);
+    height: 120px;
+    width: 700px;
+}
+
+.titulo {
+    display: flex;
+    margin-left: 30%;    
+}
+
+.send {
+    margin-left: 92vh;
+}
